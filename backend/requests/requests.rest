@@ -1,0 +1,37 @@
+POST http://localhost:4001/user-login
+Content-Type: application/json
+
+{
+	"email": "andyp.swanepoel@gmail.com",
+	"password": "password123"
+}
+###
+POST http://localhost:4001/user-registration
+Content-Type: application/json
+
+{
+	"first_name": "Andy",
+	"last_name": "Swanepoel",
+	"email": "andyp.swanepoel+12@gmail.com",
+	"password": "password1234"
+}
+###
+
+POST http://localhost:4001/api/restaurants
+Content-Type: application/json
+
+{
+	"restaurant": "Central Perk",
+  	"address": {
+    	"street": "10 Central Park Ave",
+    	"city": "New York"
+  	},
+	"cuisines": ["Coffee", "Diner"],
+	"rating": 8,
+	"reviewer": "133455435534543"
+}
+
+### 
+GET http://localhost:4001/api/restaurants
+### 
+GET http://localhost:4001/api/restaurants/61363ccbaad956410de6b3f1

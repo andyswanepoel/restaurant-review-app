@@ -1,0 +1,33 @@
+.review-form {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px grey;
+  background-color: dimgray;
+}
+
+.review-form-header {
+  margin-top: 0;
+  font-size: 36px;
+  color: white;
+}
+
+.review-form-input-container {
+  border: none;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: floralwhite;
+}
+
+.review-form-input-container > .review-form-input-container {
+  padding: 10px 0px;
+}
+
+.review-form-input-label {
+  display: block;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+}
